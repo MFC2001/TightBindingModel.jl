@@ -1,4 +1,4 @@
-module LatticeModel
+module TightBindingModel
 
 using SpecialFunctions
 
@@ -36,7 +36,7 @@ include("./Tools/Tools.jl")
 
 include("./plot/plot.jl")
 
-export test_LatticeModel
-test_LatticeModel() = println("To be continued.")
+export test_TightBindingModel
+test_TightBindingModel() = println("To be continued.")
 
 end

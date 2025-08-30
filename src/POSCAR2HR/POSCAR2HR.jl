@@ -2,7 +2,7 @@ module POSCAR2HRs
 
 using LinearAlgebra
 using StaticArrays
-import ..LatticeModel: Lattice, Cell, ReducedCoordinates, CartesianCoordinates, ORBITAL, HR
+import ..TightBindingModel: Lattice, Cell, ReducedCoordinates, CartesianCoordinates, ORBITAL, HR
 
 include("./AtomHR.jl")
 include("./SuperCell.jl")
